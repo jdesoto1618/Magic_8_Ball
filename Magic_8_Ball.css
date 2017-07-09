@@ -1,0 +1,70 @@
+.title {
+  text-align: center;
+  color: rgba(33, 150, 243, 0.72);
+  font-size: 2.5em;
+  font-family: Arial;
+  background-color: rgb(0, 150, 136);
+  border-radius: 10px;
+  border: 2px solid rgba(33, 150, 243, 0.72);
+  width: 12em;
+  margin-left: 29.5%;
+}
+
+body {
+    background-color: #cccccc;
+    color: red;
+}
+.form-group {
+  display: inline-block;
+  text-align: center;
+  padding: 1.5em;
+  font-family: Arial;
+  margin-left: 10%;
+}
+
+.main {
+  background-image: url("https://static.vecteezy.com/system/resources/previews/000/087/501/original/magic-8-ball-vector-pack.jpg");
+  background-repeat: round;
+  margin-top: 3em;
+}
+
+h2 {
+  color: green;
+  font-size: 2.5em;
+  font-weight: bold;
+  font-family: Arial;
+}
+
+p {
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: bold;
+  font-family: Arial;
+}
+
+#query {
+  color: #1c4c2a;
+  font-size: 2em;
+  font-family: Verdana;
+  border-radius: 5px;
+  width: 85%;
+}
+
+.questionbox {
+  padding: 10px;
+}
+
+.submit {
+  text-align: center;
+}
+
+.clickme {
+  cursor: pointer;
+}
+
+#answer {
+  text-align: center;
+  font-family: Arial;
+  font-weight: bold;
+  text-shadow: aquamarine;
+}

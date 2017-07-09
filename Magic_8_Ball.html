@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hello</title>
+    <script type="text/javascript" src="hello.js"></script>
+    <link type="text/css" rel="stylesheet" href="hello_styling.css"/>
+  </head>
+  <body>
+    <div class='main'>
+      <div class='title'><h1>Miss Cleo!</h1></div>
+    </div>
+    <form>
+      <div class="form-group">
+        <p>TYPE A QUESTION! CLICK TO SEE YOUR ANSWER...</p>
+        <label id="query" for="questionbox">Your Question:</label>
+        <input type="text" id="query" name="question" placeholder="Type Here">
+      </div>
+    </form>
+    <div class="submit">
+      <input class="clickme" type="button" value="Submit Question" onclick="magic8ball()" />
+    </div>
+    <h2 id="answer"></h2>
+  </body>
+</html>
